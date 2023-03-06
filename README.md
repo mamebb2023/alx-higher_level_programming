@@ -1,2 +1,2 @@
-# Python - Hello, World
-Project for Python - Hello, World
+# Python
+Repo for Python projects
