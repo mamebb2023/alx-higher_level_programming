@@ -3,6 +3,8 @@ import random
 number = random.randint(-10000, 10000)
 
 n = abs(number) % 10
+if number < 0:
+    n *= 1
 
 print(f"Last digit of {number} is {n} and is ", end="")
 
