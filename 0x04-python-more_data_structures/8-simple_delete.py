@@ -2,8 +2,6 @@
 
 def simple_delete(a_dictionary, key=""):
     d = a_dictionary
-    if key not in d:
-        return d
-    else:
+    if key in d:
         del d[key]
     return (d)
