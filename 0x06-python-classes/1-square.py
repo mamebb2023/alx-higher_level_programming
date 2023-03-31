@@ -7,7 +7,7 @@ Containes a class that defiens a square
 """
 
 class Square:
-""" Defines a square """
+	""" Defines a square """
 
 	def __init__(self, size):
 		""" Sets the attributes for square 
