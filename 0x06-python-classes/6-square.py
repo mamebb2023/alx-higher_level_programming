@@ -13,6 +13,7 @@ class Square:
 
     Args:
         size (int): the size of the square
+        position (int, int): the position of the square
     """
     def __init__(self, size=0, position=(0,0)):
         self.__size = size
