@@ -25,7 +25,7 @@ class Square:
     """ Prints the square in '#' """
     def my_print(self):
         if self.__size == 0:
-            print()
+            print("")
             return
 
         [print("") for i in range(self.__position[1])]
