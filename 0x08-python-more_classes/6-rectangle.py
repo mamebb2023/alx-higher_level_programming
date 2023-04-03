@@ -6,10 +6,9 @@ class Rectangle:
     """ Represent a rectangle
 
     Attributes:
-        numeber_of_instances (int) = the number of instances
+        number_of_instances (int): the number of instances
     """
     number_of_instanses = 0
-
 
     def __init__(self, width=0, height=0):
         """ Defiens a new Rectangle
