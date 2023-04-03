@@ -4,7 +4,14 @@
 
 class Rectangle:
     """ Defines a rectangle """
+    
     def __init__(self, width=0, height=0):
+        """ A new rectangle
+
+        Args:
+            width (int): the width of the rectangle
+            height (int): the height of the rectangle
+        """
         self.__width = width
         self.__height = height
 
@@ -30,6 +37,6 @@ class Rectangle:
     def height(self, value):
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
-        elif not value < 0:
+        elif value < 0:
             raise ValueError("width must be >= 0")
         self.__height = value
