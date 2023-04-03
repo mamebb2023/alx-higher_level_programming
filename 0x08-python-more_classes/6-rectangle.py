@@ -5,7 +5,7 @@
 class Rectangle:
     """ Represent a rectangle
 
-    Args:
+    Attributes:
         numeber_of_instances (int) = the number of instances
     """
     number_of_instanses = 0
