@@ -7,7 +7,7 @@ class Rectangle:
 
     Attributes:
         number_of_instances (int): the number of instances
-        print_symbol (int): the symbol '#'
+        print_symbol (any): the symbol '#'
     """
 
     number_of_instances = 0
