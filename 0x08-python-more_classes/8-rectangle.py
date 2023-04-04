@@ -66,8 +66,8 @@ class Rectangle:
         """ Finds the biggest rectangle
 
         Args:
-            rect1 (instance): rectangle one
-            rect2 (instance): rectangle two
+            rect_1 (Rectangle): rectangle one
+            rect_2 (Rectangle): rectangle two
         Raises:
             TypeError: if rect1 or rect2 is not an instance
         """
