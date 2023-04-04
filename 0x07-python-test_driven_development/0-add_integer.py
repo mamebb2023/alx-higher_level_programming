@@ -2,7 +2,7 @@
 """ Adds intigers """
 
 
-def add(a, b=98):
+def add_integer(a, b=98):
     """ Adds a and b
 
     Args:
