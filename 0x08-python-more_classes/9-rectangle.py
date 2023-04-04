@@ -79,6 +79,7 @@ class Rectangle:
         if rect_1.area() >= rect_2.area():
             return rect_1
         return rect_2
+
     @classmethod
     def square(cls, size=0):
         """ Returns a new rectangle which is square
@@ -112,4 +113,4 @@ class Rectangle:
     def __del__(self):
         """ Prints a message when deletetion """
         print("Bye rectangle...")
-        type(self).number_of_instances -= 1 
+        type(self).number_of_instances -= 1
