@@ -2,7 +2,7 @@
 """ Creating a class that inherits from list """
 
 
-class Mylist(list):
+class MyList(list):
     """ A class that inherites form list """
 
     def print_sorted(self):
