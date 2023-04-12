@@ -29,6 +29,8 @@ Instantiation
 	>>> print(my_list)
 	[1, 2, 3, 4]
 
+The inherited list have list properites
+
 ::
 
 	>>> my_list = MyList()
@@ -79,6 +81,11 @@ Error will be raised if two types are given in the list
 ::
 
 	>>> my_list = MyList(['Holberton', 'Brennan', 'Betty', 'School', 'Poppy'])
+	>>> print(my_list)
+   	['Holberton', 'Brennan', 'Betty', 'School', 'Poppy']
+	
+::
+
 	>>> my_list.print_sorted()
 	['Betty', 'Brennan', 'Holberton', 'Poppy', 'School']
 
