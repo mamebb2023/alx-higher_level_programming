@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Checkes if the object is exactly an instance of 
+""" Checkes if the object is exactly an instance of
 object class """
 
 
