@@ -3,11 +3,6 @@
 
 
 def read_file(filename=""):
-    """ Opens and prints the contents of the file
-
-    Args:
-        filename (str): the file name
-    """
+    """ Opens and prints the contents of the file """
     with open(filename, encoding="utf-8") as o_file:
-        print(o_file.read())
-
+        print(o_file.read(), end="")
