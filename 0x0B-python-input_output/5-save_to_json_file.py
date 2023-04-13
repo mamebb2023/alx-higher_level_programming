@@ -5,7 +5,7 @@ import json
 
 def save_to_json_file(my_obj, filename):
     """ Writes an object to a file using
-    json representation 
+    json representation
 
     Args:
         my_obj (dict): the object file
