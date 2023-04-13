@@ -3,7 +3,7 @@
 
 
 def write_file(filename="", text=""):
-    """ Writes in to a file 
+    """ Writes in to a file
 
     Args:
         filename (str): the filename
@@ -13,6 +13,6 @@ def write_file(filename="", text=""):
     with open(filename, mode="w", encoding="utf-8") as file:
         file.write(text)
 
-    cnt  = len(text)
+    cnt = len(text)
 
     return (cnt)
