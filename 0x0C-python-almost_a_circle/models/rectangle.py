@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """ A Module for a Rectangle """
-Base = __import__('model/base').Base
+from models.base import Base
 
 
 class Rectangle(Base):
@@ -20,10 +20,10 @@ class Rectangle(Base):
         self.__height = height
         self.__x = x
         self.__y = y
-        Base.__init__.id = id
+        super().__init__(id)
 
     """ getter/setter for width """
-    @properties
+    @property
     def width(self):
         return self.__width
 
@@ -32,7 +32,7 @@ class Rectangle(Base):
         self.__width = value
 
     """ getter/setter for height """
-    @properties
+    @property
     def height(self):
         return self.__height
 
@@ -41,7 +41,7 @@ class Rectangle(Base):
         self.__height = value
 
     """ getter/setter for x """
-    @properties
+    @property
     def x(self):
         return self.__x
 
@@ -50,7 +50,7 @@ class Rectangle(Base):
         self.__x = value
 
     """ getter/setter for y"""
-    @properties
+    @property
     def y(self):
         return self.__y
 
