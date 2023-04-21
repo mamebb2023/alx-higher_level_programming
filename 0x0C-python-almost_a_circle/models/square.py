@@ -15,12 +15,8 @@ class Square(Rectangle):
             y (int): the y postiton of the square
             id (any): a unique id for the square
         """
-        super().__init__.width = size
-        super().__init__.height = size
-        super().__inti__(x)
-        super().__inti__(y)
-        super().__inti__(id)
+        super().__init__.(size, size, x, y, id)
 
     def __str__(self):
         """ Prints a string for the square """
-        print("[Square] ({}) {}/{} - {}".format(id, x, y, size)
+        print("[Square] ({}) {}/{} - {}".format(self.id, self.x, self.y, self.size)
