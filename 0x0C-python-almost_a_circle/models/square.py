@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """ A Square module """
-from rectangel import Rectangle
+from rectangle import Rectangle
 
 
 class Square(Rectangle):
@@ -15,8 +15,8 @@ class Square(Rectangle):
             y (int): the y postiton of the square
             id (any): a unique id for the square
         """
-        super().__init__.(size, size, x, y, id)
+        super().__init__(size, size, x, y, id)
 
     def __str__(self):
         """ Prints a string for the square """
-        print("[Square] ({}) {}/{} - {}".format(self.id, self.x, self.y, self.size)
+        print("[Square] ({}) {}/{} - {}".format(self.id, self.x, self.y, self.size))
