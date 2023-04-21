@@ -27,6 +27,25 @@ class Square(Rectangle):
         self.width = value
         self.height = value
 
+    def update(self, *args, **kwargs):
+        """ Updates the attributes with the given values
+
+        Args:
+            args (int): the number of arguments
+            kwargs (dict): array of the arguments
+        """
+        if args is not None and len(args) > 0:
+            self.id = args[0]
+            if len(args) > 1:
+                self.size = args[1]
+            if len(args) > 2:
+                self.x = args[2]
+            if len(args) > 3:
+                self.y = args[3]
+        elif kwargs is not None:
+            for key, value in kwargs.items():
+                setattr(self, key, value)
+
     def __str__(self):
         """ Prints a string for the square """
         return ("[Square] ({}) {}/{} - {}".format(
