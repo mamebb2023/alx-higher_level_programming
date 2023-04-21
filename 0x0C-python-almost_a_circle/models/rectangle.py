@@ -117,9 +117,8 @@ class Rectangle(Base):
 
     def __str__(self):
         """ Print the coordinate and the sides of the rectangle """
-        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id,
-                                                    self.x, self.y,
-                                                    self.width, self.height)
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(
+                self.id, self.x, self.y, self.width, self.height)
 
     def to_dictionary(self):
         """Return the dictionary representation of a Rectangle."""
