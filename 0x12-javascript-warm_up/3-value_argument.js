@@ -1,3 +1,3 @@
 #!/usr/bin/node
 const args = process.argv;
-console.log(typeof args === 'undefined' ? 'No argument' : args[2]);
+console.log(typeof args[2] === 'undefined' ? 'No argument' : args[2]);
