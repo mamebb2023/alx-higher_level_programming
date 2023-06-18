@@ -12,6 +12,6 @@ if __name__ == "__main__":
     c = db.cursor()
     c.execute("SELECT * FROM states\
         WHERE BINARY name = %s;", (sys.argv[4], ))
-    [print(states) for states in c.fetchall]
+    [print(states) for states in c.fetchall()]
     c.close()
     db.close()
