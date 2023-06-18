@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" List all states form a database """
+""" Filter states form a database """
 import MySQLdb
 import sys
 
