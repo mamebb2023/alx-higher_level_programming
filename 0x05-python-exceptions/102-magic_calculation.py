@@ -2,6 +2,12 @@
 
 
 def magic_calculation(a, b):
+    """ Python Bytecode
+    
+    Args:
+        a (int): a number
+        b (int): a number
+    """
     result = 0
     for i in range(1, 3):
         try:
